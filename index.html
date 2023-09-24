@@ -1,0 +1,285 @@
+<html>
+
+<head>
+    <title>career Counseling for secondary education</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <h2 class="logo"> Career <span> Guidance</span> </h2>
+            <img class="mlogo" src="./images/ministry of education logo.png" alt="ministry of education logo.png">
+                <a href="https://errormasters.github.io/signin/" class="btn" id="signin">sign in</a>
+                
+                <ul>
+                    <div id="header">
+                        <div class="container">
+                            <nav>
+                                <ul>
+                                    <li><a href="#header">Home</a></li>
+                                    <li><a href="#about">about us</a></li>
+                                    <li><a href="#career paths">career paths</a></li>
+                                    <li><a href="#aptitude test">aptitude test</a></li>
+                                    <li><a href="#contact">Contact</a></li>
+                                </ul>
+                            </nav>
+                            <div class="header-text">
+                                <p class="hi"><spam style="color:white">Hi..!</spam></p>
+                                <h1>Welcome to <spam style="color:#f9004d">career choices</spam><br> Counseling</h1>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="hari">
+                        <div id="about">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="about-col-1">
+                                        <img src="./images/123.jpg" 
+                                            width="300px" height="500px" />
+                                    </div>
+                                    <div class="about-col-2">
+                                        <h1 class="sub-title">
+                                            <spam style="color:#f9004d">Confused</spam><br>about career choices?
+                                        </h1>
+                                        <h2>Use the list below to help you begin that process.</h2>
+                                        <ol>
+                                            <ul>1. examine yourself</ul>
+                                            <ul>2. reflect on your motivations</ul>
+                                            <ul>3. think about your long-term goals</ul>
+                                            <ul>4. take differetn self-assessment tests</ul>
+                                            <ul>5. seek out professional resources</ul>
+                                            <ul>6. explore career options on your list</ul>
+                                        </ol>
+                                        <div class="tab-titles">
+                                            <p class="tab-links active-link" onclick="opentab('Skills')">Test yourself
+                                            </p>
+                                            <p class="tab-links" onclick="opentab('Experience')">Explore yourself</p>
+                                            <p class="tab-links" onclick="opentab('Education')">Achieve your goal</p>
+                                        </div>
+                                        <div class="tab-contents active-tab" id="Skills">
+                                            <ul>
+                                                <ul><span>step 01:</span><br>Give aptitude test</ul>
+                                                <ul><span>step 02:</span><br>Get the results</ul>
+                                                <ul><span>step 03:</span><br>Choose your path</ul>
+                                            </ul>
+                                        </div>
+                                        <div class="tab-contents" id="Experience">
+                                            <ul>
+                                                <ul><span>step 01:</span><br>Know about yourself</ul>
+                                                <ul><span>step 02:</span><br>Invest your knowledge based upon your
+                                                    result</ul>
+                                                <ul><span>step 03:</span><br>Set your goal</ul>
+                                            </ul>
+                                        </div>
+                                        <div class="tab-contents" id="Education">
+                                            <ul>
+                                                <ul><span>step 01:</span><br>explore your career </ul>
+                                                <ul><span>step 02:</span><br>choose your career</ul>
+                                                <ul><span>step 03:</span><br>Go Ahead</ul>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <script>
+                                var tablinks = document.getElementsByClassName("tab-links");
+                                var tabcontents = document.getElementsByClassName("tab-contents");
+                                function opentab(tabname) {
+                                    for (tablink of tablinks) {
+                                        tablink.classList.remove("active-link");
+                                    }
+                                    for (tabcontent of tabcontents) {
+                                        tabcontent.classList.remove("active-tab");
+                                    }
+                                    event.currentTarget.classList.add("active-link");
+                                    document.getElementById(tabname).classList.add("active-tab");
+                                }
+                            </script>
+                        </div>
+                        <div id="career paths">
+                            <div class="container">
+                                <h1 class="sub-title"><spam style="color:#f9004d">career</spam> paths</h1>
+                                <div class="services-list">
+                                    <div>
+                                        <i class="fa-solid fa-code"></i>
+                                        <h2><spam style="color:white">class 10-12</spam></h2>
+                                        <p> expert guidance and 5-dimensional assessment to help you discover your
+                                            perfect career and choose the right course and college</p>
+                                        <a href="https://hemalatha1234567.github.io/class10/">
+                                            <button>Learn More</button> </a>
+                                    </div>
+                                    <div>
+                                        <i class="graduation-cap-solid.svg"></i>
+                                        <h2><spam style="color:whitesmoke">College and Graduates</spam></h2>
+                                        <p>5-dimensional assessment and superior guidence to help you discover your
+                                            perfect career and choose the best next step</p>
+                                        <a href="https://errormasters.github.io/carrerpathafter12/">
+                                            <button>Learn more</button></a>
+                                    </div>
+                                    <div>
+                                        <i class="fa-solid fa-gamepad"></i>
+                                        <h2><spam style="color:rgb(226, 222, 185)">Talent development</spam></h2>
+                                        <p>comprehensive Guidance and personalised application development for
+                                            admissions to liberal arts programs</p>
+                                        <a href="https://errormasters.github.io/talentdevelopmentafter10/"><button>Learn more</button></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="aptitude test">
+                            <div class="container">
+                                <h1 class="sub-title">How do we <spam style="color:#f9004d">help?</spam></h1>
+                                <p>3 simple steps for career selection & planning</p>
+                                <div class="work-list">
+                                    <div class="work">
+
+
+                                        <div class="layer">
+                                            <h3>step 01</h3>
+                                            <h2><spam style="color:hsl(37, 93%, 43%)">Take aptitude test </spam><br></h2>
+                                            <p>Run plenty of practice tests. </p>
+
+
+                                        </div>
+                                    </div>
+
+                                    <div class="work">
+
+                                        <div class="layer">
+                                            <h3>step 02</h3>
+                                            <h2><spam style="color:hsl(37, 93%, 43%)">Choose career path</spam><br></h2>
+                                            <p>Understand results of your report and identify your key carreer goal.</p>
+
+
+                                        </div>
+                                    </div>
+                                    <div class="work">
+                                        <div class="layer">
+                                            <h3>step 03</h3>
+                                            <h2><spam style="color:hsl(37, 93%, 43%)">Planning and Preparation</spam><br></h2>
+                                            <p>Seek guidance to plan the next steps and achieve your career goals.</p>
+                                        </div>
+                                    </div>
+                                    <a href="https://errormasters.github.io/mathsaptitude/" class="btn">start</a>
+                                </div>
+                            </div>
+                        </div>
+<div >
+                        <div class="d-flex flex-column align-items-center">
+                           </div>
+                          
+                           <h3 class="chinnu">Top Categories of <spam style="color:#f9004d">Career Options</spam></h3>
+                           <div class="grid-container">
+                            <div class="grid-item"><button id="tabsskills" name="mytabs" onclick="skills()"
+                                    type="button"></button>
+                                <h2><a href="https://hemalatha1234567.github.io/hema/">Engineering & Technology</a>
+                                </h2>
+                                <button id="tabsskills" name="mytabs" onclick="skills()" type="button"></button>
+                            </div>
+                            <div class="grid-item"><button id="tabsskills" name="mytabs" onclick="skills()"
+                                    type="button"></button>
+                                <h2><a href="https://errormasters.github.io/management/">Management &
+                                        Marketing</a></h2>
+                                <button id="tabsskills" name="mytabs" onclick="skills()" type="button"></button>
+                            </div>
+                            <div class="grid-item"><button id="tabsskills" name="mytabs" onclick="skills()"
+                                    type="button"></button>
+                                <h2><a href="https://errormasters.github.io/creativity-art/">Creativity & Art</a></h2>
+                                <button id="tabsskills" name="mytabs" onclick="skills()" type="button"></button>
+                            </div>
+                            <div class="grid-item"><button id="tabsskills" name="mytabs" onclick="skills()"
+                                    type="button"></button>
+                                <h2><a
+                                        href="https://errormasters.github.io/science/">Science
+                                        & Research</a></h2>
+                                <button id="tabsskills" name="mytabs" onclick="skills()" type="button"></button>
+                            </div>
+                            <div class="grid-item"><button id="tabsskills" name="mytabs" onclick="skills()"
+                                    type="button"></button>
+                                <h2><a
+                                        href="https://errormasters.github.io/aerospace/">Aerospace
+                                        & Aviation</a></h2>
+                                <button id="tabsskills" name="mytabs" onclick="skills()" type="button"></button>
+                            </div>
+                            <div class="grid-item"> <button id="tabsskills" name="mytabs" onclick="skills()"
+                                    type="button"></button>
+                                <h2><a href="https://errormasters.github.io/media/">Media &
+                                        Entertainment</a></h2>
+                                <button id="tabsskills" name="mytabs" onclick="skills()" type="button"></button>
+                            </div>
+                            <div class="grid-item"><button id="tabsskills" name="mytabs" onclick="skills()"
+                                    type="button"></button>
+                                <h2><a href="https://errormasters.github.io/law/">Law & Order</a></h2>
+                                <button id="tabsskills" name="mytabs" onclick="skills()" type="button"></button>
+                            </div>
+                            <div class="grid-item"> <button id="tabsskills" name="mytabs" onclick="skills()"
+                                    type="button"></button>
+                                <h2><a href="https://errormasters.github.io/agriculture/">Agriculture-food
+                                        Processing</a></h2>
+                            </div>
+                        </div>
+
+                            <div id="contact">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="contact-left">
+                                        <h1 class="sub-title"><spam style="color: #f9004d">Contact </spam>Us</h1>
+                                        <h2>Email:-</h2><p><i class="fa-solid fa-paper-plane"></i>errormasters@gmail.com</p>
+                                        <br/>
+                                        <h2>Phone No:-</h2><p><i class="fa-solid fa-square-phone"></i>7095959110</p>
+
+                                        
+            <a href="https://errormasters.github.io/contactus/">
+                                            <button type="submit" class="btn btn2">Submit</button>
+                                       </a>
+                                     </form>
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <h2>More About Carreer Guidance</h2><br/>
+                            <p>Are you ready to go on a courageous, self-discovering, and empowering journey with CareerGuide?</p>
+                                <p>Are you making that important career decision, but are you utilizing the same old way of picking a career based on the decisions of your friends, parents, or relatives? It is very natural to stay confused about your career but using the old method can provide you more confusion. Use the new scientific method to choose the ideal career for yourself.</p>
+                                                         
+                                <span id="dots">...</span><span id="more"> we offer a variety of psychometric tests that evaluate you based on your talents, interests, and aptitude and present you with a detailed report to assist you in selecting the best career possibilities, such as doctor, singer, and cricketer, etc. We offer eight Aptitude tests and One of the best tests which are perfect for all age groups is the Ideal Career test. The four sections of the Ideal Career Test report are motivation,  interest, and personality. The motivation section sketches the top characteristics which encourage you to perform better at work.  There is also a part on aptitude that identifies your strengths and areas for improvements, such as verbal, numerical, spatial, critical dissection, and acuteness.
+                                    Your hobbies are linked to RIASEC theory in the Interest section, suggesting which types of careers will keep you interested and motivated. The personality component of the test will tell you whether you are assertive, factual, deliberate, gregarious, spontaneous, inventive, passive, or lonely. You'll have a clear image of where you should be going when you bring the findings of all four sections together. There are also a variety of Aptitude tests  available in CareerGuide apart fromIdeal Career Test like Professional Skill Index Test, Engineering Branch Selector Test, Commerce Career Selector Test, Humanities Career Selector Test, and also there are tests for class 9th and class 10th. Don’t stay confused about your career visit CareerGuide now and choose the right career for you. 
+                                <br/>
+                                Our dedication to enabling you to pursue your ambition and help you to follow the right step towards your career. With our help, students can connect their real passion with the help of our top counsellors. You can access the global job market with the help of the right counselling. 
+                                <h3><u style="color:white;">Reason for career counselling</u></h3>
+<p> Everyone's life is changed by counselling since it shows them the right road to follow their passion. There are a few reasons which help you to tell you the importance of career counselling:
+    <br/>
+    During a career counselling session, you'll have the opportunity to discuss your career-related concerns and receive feedback and guidance from the counsellor. You may also complete assessments and explore different career options. The goal of career counselling is to help you make a confident, informed decision about your career path and feel satisfied with your choice. 
+</p>
+<ul>
+    <h3> <li><spam style="color:white">Showcases Your Potential and Enthusiasm</spam></li></h3>
+    <p><spam style="color:white">Today's students have access to a variety of professional opportunities. As a result, information overload confused the students. We can determine the correctness by looking at the legacy, knowledge, and authenticity. If you're unsure about your best professional move, consider this. Your potential and passions can be discovered by a professional counsellor using your experience. This enhances your life's success and prosperity. </p> </spam>
+<h3><li>Provides Professional Advice</li></h3>
+<p>Typically, when we discuss occupations with friends and family, we end up selecting the wrong path. Sometimes we decide on a career based on the choice of a friend or sibling. Experts claim that the majority of pupils express their significant worries about being driven to pursue a career of their own choosing and not receiving parental support for their dream careers. A career counsellor assists clients in removing conflicting ideas and assisting them in selecting their ideal vocation. </p>
+<h3><li><spam style="color:white">Contact Receives the critical parental support</spam></li></h3>
+<p><spam style="color:white">Every parent and teacher has to be reminded of the individual potentials that each student possesses. One's parents can learn to recognize and value their child's talents with the aid of a professional career counsellor. Talents need to be encouraged and recognized. Finally, they receive the early parental support they require. Every student's life should include this crucial phase in order to build a brighter future. A career counsellor can shield you from pressured job decisions, help you establish the career of your choosing, and help your parents and other stakeholders empathize with you. </spam>
+<h3><li>Helps to eliminate frustration related to careers</li></h3>
+<p>One's mind is constantly racing with ideas because there are so many possible professional paths, which makes one frustrated. A career counsellor offers a setting where irritation is lessened and concentrates on helping a student choose the best career possibilities. For both parents and students, choosing the right job is one of the most challenging and hard undertakings. </p>
+<h3><li><spam style="color:white">Get Support Mid-Career</spam></li></h3> 
+<p><spam style="color:white">You can obtain help with matters that come up early in your career, like picking a profession or landing your first job, as well as advice on things that happen later in your career. For instance, career counselling services can help people advance in their careers and manage obstacles at work. A career development expert can respond to your inquiries about career advancement. He or she can offer advice on how to advance in your career, how to get paid more, and whether or not you should leave your job. You can get advice on getting along with your coworkers and boss, preparing for and responding to performance reviews, dealing with job stress and burnout, and more. </p></spam>
+<h3><li>Establishes a role model</li></h3>
+<p>professionals in career advising and students can connect Experts provide examples from their own lives so that students can relate to them, draw inspiration from them, and ultimately solve their difficulties. </p>
+<h3><li><spam style="color:white">Ensure 
+    stability</spam></li></h3>
+<p><spam style="color:white">Career counsellors aid in maintaining composure while making a decision on one's career through effective planning and scheduling. They pay attention to your ideas and passions and work to manage your life through their wisdom and experience. </p></spam>
+</ul>
+                             </span>
+
+                             <button onclick="myFunction()" id="myBtn">Read more</button></div>
+
+
+
+                            <div class="copyright">
+                                <p>copyright &copy;.ERROR MASTERS <i class="fa-solid fa-heart"></i></p>
+                            </div>
+                        </div>
+                    </div>
+                    
+</body>
